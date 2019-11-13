@@ -15,7 +15,7 @@
         <p/>
         Username: <h:inputText value="#{userBean.user.userName}" />
         <p/>
-        Password: <h:inputText value="#{userBean.user.password}" />
+        Password: <h:inputSecret value="#{userBean.user.password}" />
         <p/>
         <h:commandButton value="Submit" action="#{userBean.registerNewUser()}"/>
     </h:form>

@@ -3,7 +3,6 @@
 @IMPORT url("#{resource['css:footer.css']}");
 @IMPORT url("#{resource['css:grid.css']}");
 
-
 * {
     box-sizing: border-box;
 }

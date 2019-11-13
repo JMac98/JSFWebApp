@@ -7,9 +7,10 @@ public class LoginService {
         if (user.getUserName() != "James" && user.getPassword().matches("[0-9]+")) {
             return "welcome";
         } else{
-            return "register";
+            return "login";
         }
     }
+
 }
 
 //if (user.getFirstName().matches("[a-zA-Z]+") && user.getSurName().matches("[a-zA-Z]+")) {
